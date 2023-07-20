@@ -1,0 +1,138 @@
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+#card-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+justify-content: center;
+  column-gap: 50px;
+
+}
+
+.card{
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 300px;
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.product-details {
+  margin-top: 20px;
+}
+
+.product-name {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 18px;
+  color: #007bff;
+  margin: 0;
+}
+
+.buy-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.buy-button:hover {
+  background-color: #0056b3;
+}
+/* Navigation bar styles */
+#navbar {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+#nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-size: large;
+
+}
+
+#nav-list li {
+  margin-right: 20px;
+  
+}
+
+#nav-list li:last-child {
+  margin-right: 0;
+}
+
+#nav-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 8px;
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+#nav-list a:hover {
+  color: #007bff;
+}
+
+/*----------------product Design--------------*/
+#product__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.card__product{
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 20rem;
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center;
+ display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
